@@ -38,6 +38,7 @@
             font-size: 32px;
             font-weight: bold;
             margin-bottom: 16px;
+            text-transform: uppercase;
         }
 
         &__description {
@@ -53,19 +54,28 @@
 
         }
 
-        &__eventos{
+        &__eventos {
             text-align: center;
 
             &__image {
                 margin-top: 16px;
             }
         }
-        
+
 
         &__details {
             margin-right: 0;
             margin-bottom: 16px;
             text-align: center;
+        }
+    }
+
+    @media (max-width: 479px) {
+
+        &__eventos {
+            &__image {
+                max-width: 288px;
+            }
         }
     }
 }
