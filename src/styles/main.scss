@@ -13,6 +13,10 @@
     list-style: none;
 }
 
+#contador{
+color: variables.$yellow;
+}
+
 .container {
     max-width: 960px;
     width: 100%;

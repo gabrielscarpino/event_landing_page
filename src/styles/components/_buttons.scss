@@ -10,15 +10,15 @@
 
     &--primary {
         color: variables.$textColor;
-        background-color: variables.$purple;
+        background-color: variables.$orange;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 767px) {
         display: block;
         width: 100%;
     }
 
-    @media (min-width: 641px) and (max-width: 1024px) {
+    @media (min-width: 768px) and (max-width: 1024px) {
         display: flex;
         align-items: center;
     }

@@ -3,7 +3,7 @@
 .hero{
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
+    background-image: url(../images/Fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -18,9 +18,9 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: variables.$secondaryTextColor;
+        background-color: variables.$black;
         content: '';
-        opacity: .7;
+        opacity: .1;
     }
 
     &__text{
@@ -35,19 +35,16 @@
 
     &__logo{
         margin: 0 auto;
-        height: 80px;
+        max-width: 300px;
         display: block;
     }
 
-    @media (max-width: 640px){
+    @media (max-width: 767px){
         padding: 40px 0;
 
-        &__logo{
-            height: 40px;
-        }
         &__text{
-            font-size: 22px;
-            line-height: 24px;
+            font-size: 32px;
+            line-height: 40px;
             margin: 24px 0;
         }
     }
